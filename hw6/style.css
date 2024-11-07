@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    font-size: 18px;
+    color: green;
+    border: 2px solid lightgreen;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+ul li a:hover {
+    background-color: darkgreen;
+}
